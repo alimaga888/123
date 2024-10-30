@@ -5,8 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $operation = $_POST['operation'];
     
     switch ($operation) {
-        case 'add':
-            $result = $num1 + $num2;
+        case 'stepen':
+            $result = $num1 ** $num2;
             break;
         case 'subtract':
             $result = $num1 - $num2;
