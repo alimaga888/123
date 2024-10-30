@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $result = $num2 != 0 ? $num1 / $num2 : 'Ошибка: деление на ноль';
             break;
         default:
-            $result = 'Некорректная операция';
+            $result = 'АААА!!! ЧТОЖ ВЫ ДЕЛАЕТЕ-ТО????????';
     }
 }
 ?>
